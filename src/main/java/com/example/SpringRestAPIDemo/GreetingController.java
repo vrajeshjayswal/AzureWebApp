@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class GreetingController {
 
-    private static final String template = "Hello, %s! This is updated value version 2";
+    private static final String template = "Hello, %s! This is updated value version 3";
     private final AtomicLong counter = new AtomicLong();
 
     @RequestMapping("/greeting")
